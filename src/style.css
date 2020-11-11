@@ -1,0 +1,226 @@
+body{
+  margin: 0 auto;  
+}
+.wrap{  
+  width: 1920px;  
+  background: #8D7CBD 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+.header{  
+  display: flex;
+  width: 1920px;
+  height: 120px;
+  background: #6B55A9 0% 0% no-repeat padding-box;  
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{  
+  width: 164px;
+  height: 96px;
+  margin-left: 60px;
+/*   margin-top: 15px; */
+  background: transparent url('https://fi7933201.github.io/image/%E5%A3%81%E7%A3%9Alogo.png') 0% 0% no-repeat padding-box;  
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.header ul{
+  list-style:none
+}
+.bar{
+  margin-right: 142px;
+  display: flex;
+  
+}
+.barname{
+  width: 256px;
+  height: 91px;
+  margin-left: 20px;
+  text-align: center;  
+  background: #604A9E 0% 0% no-repeat padding-box;
+}
+.barname a{    
+  font-family: 微軟正黑體;
+  font-size: 36px;
+  line-height: 91px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.barname a:link{
+  font-family: 微軟正黑體;
+  color: #fff;
+  text-decoration:none;
+}
+.barname a:visited{
+  font-family: 微軟正黑體;
+  color: #fff;
+  text-decoration: underline;
+}
+.barname a:hover{
+  font-family: 微軟正黑體;
+  color: #2a1c55;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner{
+  width: 1636px;
+  height: 953px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.animate{
+  height: 1020px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.anititle{
+  margin: 0 auto;
+  width: 533px;
+  height: 111px;
+  border-bottom: 5px solid #FFFFFF;
+  font-family: 微軟正黑體;
+  color: #FFF;
+  font-size: 59px;
+  text-align: center;
+}
+.ani{
+  width: 1360px;
+  height: 765px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.about{
+  height: 980px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.abouttitle{
+  margin: 0 auto;
+  width: 533px;
+  height: 111px;
+  border-bottom: 5px solid #FFFFFF;
+  font-family: 微軟正黑體;
+  color: #FFF;
+  font-size: 59px;
+  text-align: center;
+}
+.about ul{
+  list-style:none
+}
+.aboutimg{
+  width: 1320px;
+  display: flex;
+  justify-content: space-between;
+}
+.bully1{
+/*   width: 500px;
+  height: 500px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;  
+  border: 1px solid #707070;
+  border-radius:999em; */
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font: normal normal normal 50px/67px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.bully2{
+/*   width: 500px;
+  height: 500px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;  
+  border: 1px solid #707070;
+  border-radius:999em; */
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font: normal normal normal 50px/67px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.cir{
+  width: 500px;
+  height: 500px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;  
+/*   border: 1px solid #707070; */
+  border-radius:999em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .bully1 .cir a{
+  width: 275px;
+  height: 315px;
+  background: transparent url('https://fi7933201.github.io/image/pose_taiiku_suwari_back_woman.png') 0% 0% no-repeat padding-box;  
+}
+.bully2 a{ 
+  width: 333px;
+  height: 242px;
+  background: transparent url('https://fi7933201.github.io/image/friends_kobushi_woman_man.png') 0% 0% no-repeat padding-box;  
+}*/
+.gameplay{
+  height: 1060px;
+}
+.gameplaytitle{
+  margin: 0 auto;
+  width: 533px;
+  height: 111px;
+  border-bottom: 5px solid #FFFFFF;
+  font-family: 微軟正黑體;
+  color: #FFF;
+  font-size: 59px;
+  text-align: center;
+}
+.workitem{
+  height: 1295px;
+}
+.member{
+  display: flex;
+  justify-content: space-around;
+}
+.workitem ul{
+  list-style: none;
+}
+.member li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font: normal normal normal 50px/67px 微軟正黑體;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.member li a img{
+  width: 400px;
+  height: 400px;
+}
+.album{
+  height: 300px;
+  background: #FFFFFF;
+}
+.title{
+  margin: 0 auto;
+/*   margin-top: 115px; */
+  width: 533px;
+  height: 111px;
+  border-bottom: 5px solid #FFFFFF;
+  font-family: 微軟正黑體;
+  color: #FFF;
+  font-size: 59px;
+  text-align: center;
+}
+.footer{
+  height: 80px;
+}
